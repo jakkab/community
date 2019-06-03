@@ -219,7 +219,7 @@ Follow these steps to create a release:
 11. Update the release content manually with links to the instruction on how to install the latest Kyma release.  
 	Currently, this means to grab the links from the previous release and update the version number in URLs. If contributors want you to change something in the instruction, they would address you directly.
 
-12. Create a table with all opened issues labeled as `test-missing` (spreadsheet will do). Every team assigned to an issue must cover missing test with manual verification on every release candidate. After the test is finished successfully they shall mark it as completed in the table. Every issue that is found during testing must be reported. To make the testing easier, provision a publicly available cluster with the release candidate version after performing all steps listed in this document.
+12. Create a spreadsheet with all open issues labeled as `test-missing`. Every team assigned to an issue must cover missing test with manual verification on every release candidate. After the test is finished successfully they must mark it as completed in the spreadsheet. Every issue that is found during testing must be reported. To make the testing easier, provision a publicly available cluster with the release candidate version after performing all steps listed in this document.
 
 [1]:	#steps
 [2]:	https://github.com/kyma-project/test-infra/blob/master/docs/prow/release-jobs.md
